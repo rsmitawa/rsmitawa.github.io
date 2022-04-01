@@ -1,4 +1,4 @@
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link, Switch } from "react-router-dom";
 import { About } from "./components/About";
 import { Home } from "./components/Home";
 import "./App.css";
@@ -9,8 +9,11 @@ const App = () => {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/my_portfolio" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Switch>
+          <Route path="/" element={<Home />} />
+          <Route path="/my_portfolio" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Switch>
       </Routes>
     </div>
   );
