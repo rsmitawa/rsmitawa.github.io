@@ -3,12 +3,35 @@
 }
 
 .header-container {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 50px;
+  min-height: 50px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.profile_img {
+  height: 100px;
+  display: flex;
+  margin: 10px 20px;
+  width: 50%;
+}
+
+.header_nav {
+  width: 50%;
+}
+
+.header_nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  list-style: none;
+  font-size: 18px;
+}
+
+.header_nav ul a {
+  text-decoration: none;
+  color: #000;
 }
