@@ -14,9 +14,9 @@ export const Home = () => {
       </div>
       <div class="textlanding">
         <p className="textlanding_name">Ramesh</p>
-        <img src="img/logo/Home_single_big.png" alt="home" />
-        {/* <p style="display:inline; font-size: 35px">HOLTZ</p> */}
-        <hr />
+        <img src="/img/Home_single_big.png" alt="home" />
+        <p className="textlanding_lastname">Mitawa</p>
+        <div  className="hr_bottom"/>
         <ul class="list-inline social-buttons">
           <li class="list-inline-item">
             <a href="https://twitter.com/R_Graph_Gallery">
@@ -43,8 +43,13 @@ export const Home = () => {
           <a href="https://www.datadoghq.com/">Datadog</a>.
         </p>
 
-        {/* <Link to="/">Visit</Link> */}
-        <a
+        <Link to="/intro"
+          class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+          >Visit</Link>
+        <Link to="/contact"
+          class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+          >Contact</Link>
+        {/* <a
           class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
           href="#description"
         >
@@ -55,13 +60,13 @@ export const Home = () => {
           href="#contact"
         >
           Contact
-        </a>
+        </a> */}
       </div>
-      <div class="arrowlanding">
-        <a class="js-scroll-trigger" href="#description">
-          <p>﹀</p>
-        </a>
-      </div>
+      {/* <div class="arrowlanding">
+        <Link to="/intro" className="js-scroll-trigger">
+        <p>﹀</p>
+         </Link>
+      </div> */}
     </div>
   );
 };

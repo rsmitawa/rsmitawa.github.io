@@ -1,18 +1,19 @@
 import React from "react";
+import "./intro.css";
 
 export const Intro = () => {
   return (
     <section id="description" class="bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 text-center">
+          <div class="col-lg-4 col-lg-4 text-end pt-2">
             <img
               class="img-fluid img_desc"
-              src="img/team/YH_pic_square.png"
+              src="/img/ramesh_profile.jpeg"
               alt="Ramesh Mitawa profile"
             />
           </div>
-          <div class="col-lg-8 text-center text-md-left">
+          <div class="col-lg-8 text-start">
             <p>Hi, I'm Ramesh.</p>
             <p>
               My job consists in helping companies and researchers to analyse
@@ -29,26 +30,34 @@ export const Intro = () => {
               engineer.
             </p>
             <a
-              class="btn btn-secondary btn-l text-uppercase"
+              class="btn btn-secondary btn-l text-uppercase mx-2"
               href="https://github.com/holtzy/Publication"
+              target={"_blank"}
+              rel="noreferrar noreferrer"
             >
               Publications
             </a>
             <a
-              class="btn btn-secondary btn-l text-uppercase"
+              class="btn btn-secondary btn-l text-uppercase mx-2"
               href="https://github.com/holtzy/Talk"
+              target={"_blank"}
+              rel="noreferrar noreferrer"
             >
               Talks
             </a>
             <a
-              class="btn btn-secondary btn-l text-uppercase"
+              class="btn btn-secondary btn-l text-uppercase mx-2"
               href="https://twitter.com/R_Graph_Gallery"
+              target={"_blank"}
+              rel="noreferrar noreferrer"
             >
               Twitter
             </a>
             <a
-              class="btn btn-secondary btn-l text-uppercase"
+              class="btn btn-secondary btn-l text-uppercase mx-2"
               href="https://github.com/holtzy"
+              target={"_blank"}
+              rel="noreferrar noreferrer"
             >
               Github
             </a>

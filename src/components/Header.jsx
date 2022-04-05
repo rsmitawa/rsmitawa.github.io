@@ -31,7 +31,7 @@ export const Header = () => {
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto nav_list">
-              <li>
+              <li class="nav-item">
                 <Link to="/intro">Intro</Link>
               </li>
               <li>
@@ -47,25 +47,15 @@ export const Header = () => {
                 <Link to="/contact">Contact</Link>
               </li>
               <li>
-                <Link to="/resume">Resume</Link>
+                <a
+                  href="https://docs.google.com/document/d/1qN-s5pEF1h-nEb_Zw0foWrNWl5MUKT2njVpVh2pG95U/edit?usp=sharing"
+                  target="_blank"
+                  rel="noreferrar noreferrer"
+                >
+                  Resume
+                </a>
+                {/* <Link to="/resume">Resume</Link> */}
               </li>
-
-              {/* <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#description">Intro</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-                    </li>
-                  
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#testimonial">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger active" href="#contact">Contact</a>
-                    </li> */}
             </ul>
           </div>
         </div>

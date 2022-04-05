@@ -6,21 +6,26 @@
 .textlanding_name {
     display: inline;
     font-size: 35px;
-    padding-left: 30px;
+    /* padding-left: 30px; */
+}
+.textlanding_lastname{
+    display:inline; 
+    font-size: 35px;
 }
 
 .textlanding img {
     width: 90px;
     display: inline;
-    margin-right: 10px 20px;
+    margin: 10px;
 
 }
-.textlanding hr {
+.textlanding .hr_bottom {
     width: 100px;
-    height: 1px;
-    border: none;
-    color: #333;
-    background-color: #333;
+    border: 1px solid;
+    text-align: center;
+    align-items: center;
+    display: inherit;
+    margin: 30px auto;
 }
 
 .social-buttons .fa-github {

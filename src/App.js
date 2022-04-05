@@ -6,7 +6,6 @@ import { Header } from "./components/Header";
 import { Intro } from "./components/Intro";
 import { Services } from "./components/Services";
 import { Portfolio } from "./components/Portfolio";
-import { Resume } from "./components/Resume";
 import { Contact } from "./components/Contact";
 import { Testimonials } from "./components/Testimonials";
 
@@ -22,7 +21,6 @@ const App = () => {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
       </Routes>
     </div>
   );
