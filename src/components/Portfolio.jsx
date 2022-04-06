@@ -57,7 +57,7 @@ export const Portfolio = () => {
                   </p>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/UKB_geo.png" alt="" />
+              <img class="img-fluid" src="img/UKB_geo.png" alt="" />
             </a>
           </div>
 
@@ -73,11 +73,8 @@ export const Portfolio = () => {
                   </p>
                 </div>
               </div>
-              <img
-                class="img-fluid"
-                src="img/portfolio/GenMapComp.png"
-                alt=""
-              />
+              <img class="img-fluid" src="img/UKB_geo.png" alt="" />
+
             </a>
           </div>
 
@@ -93,7 +90,7 @@ export const Portfolio = () => {
                   </p>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/TI4.png" alt="" />
+              <img class="img-fluid" src="img/UKB_geo.png" alt="" />
             </a>
           </div>
 
@@ -111,7 +108,7 @@ export const Portfolio = () => {
                   </p>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/como.png" alt="" />
+              <img class="img-fluid" src="img/UKB_geo.png" alt="" />
             </a>
           </div>
 
@@ -132,11 +129,8 @@ export const Portfolio = () => {
                   </p>
                 </div>
               </div>
-              <img
-                class="img-fluid"
-                src="img/portfolio/Network_Coauthor.png"
-                alt=""
-              />
+              <img class="img-fluid" src="img/UKB_geo.png" alt="" />
+
             </a>
           </div>
 
@@ -151,11 +145,8 @@ export const Portfolio = () => {
                   </p>
                 </div>
               </div>
-              <img
-                class="img-fluid"
-                src="img/portfolio/poster_sample.png"
-                alt="data to viz logo"
-              />
+              <img class="img-fluid" src="img/UKB_geo.png" alt="" />
+
             </a>
           </div>
 
@@ -172,7 +163,8 @@ export const Portfolio = () => {
                   </p>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/GreenTech.png" alt="" />
+              <img class="img-fluid" src="img/UKB_geo.png" alt="" />
+
             </a>
           </div>
 
@@ -189,7 +181,8 @@ export const Portfolio = () => {
                   </p>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/Unics.png" alt="" />
+              <img class="img-fluid" src="img/UKB_geo.png" alt="" />
+
             </a>
           </div>
 
@@ -212,12 +205,8 @@ export const Portfolio = () => {
                   </p>
                 </div>
               </div>
-              <img
-                class="img-fluid"
-                src="img/portfolio/Crypto.png"
-                alt=""
-                align="middle"
-              />
+              <img class="img-fluid" src="img/UKB_geo.png" alt="" />
+
             </a>
           </div>
 
