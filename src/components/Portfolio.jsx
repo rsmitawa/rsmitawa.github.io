@@ -74,7 +74,6 @@ export const Portfolio = () => {
                 </div>
               </div>
               <img class="img-fluid" src="img/UKB_geo.png" alt="" />
-
             </a>
           </div>
 
@@ -130,7 +129,6 @@ export const Portfolio = () => {
                 </div>
               </div>
               <img class="img-fluid" src="img/UKB_geo.png" alt="" />
-
             </a>
           </div>
 
@@ -146,7 +144,6 @@ export const Portfolio = () => {
                 </div>
               </div>
               <img class="img-fluid" src="img/UKB_geo.png" alt="" />
-
             </a>
           </div>
 
@@ -164,7 +161,6 @@ export const Portfolio = () => {
                 </div>
               </div>
               <img class="img-fluid" src="img/UKB_geo.png" alt="" />
-
             </a>
           </div>
 
@@ -182,7 +178,6 @@ export const Portfolio = () => {
                 </div>
               </div>
               <img class="img-fluid" src="img/UKB_geo.png" alt="" />
-
             </a>
           </div>
 
@@ -206,7 +201,6 @@ export const Portfolio = () => {
                 </div>
               </div>
               <img class="img-fluid" src="img/UKB_geo.png" alt="" />
-
             </a>
           </div>
 

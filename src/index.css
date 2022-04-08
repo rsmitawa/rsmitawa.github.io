@@ -1,24 +1,24 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 
 
 /* ---------- General ----------------- */
-/* body {
+body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-} */
+}
 
 p {
   line-height: 1.75;
@@ -73,9 +73,9 @@ section h3.section-subheading {
 
 
 u {
-  padding-bottom:3px;
-  text-decoration:none;
-  border-bottom:1px solid #000;
+  padding-bottom: 3px;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
 }
 
 /* ---------- Dismiss a few elements if small screen: ----------------- */
@@ -113,13 +113,16 @@ u {
   border-width: medium;
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
   background-color: #69b3a2 !important;
   border-color: #69b3a2 !important;
   color: white;
 }
 
-.btn-primary:active, .btn-primary:focus {
+.btn-primary:active,
+.btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
@@ -131,13 +134,16 @@ u {
   border-width: small;
 }
 
-.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
   background-color: #69b3a2 !important;
   border-color: #69b3a2 !important;
   color: white;
 }
 
-.btn-secondary:active, .btn-secondary:focus {
+.btn-secondary:active,
+.btn-secondary:focus {
   background-color: #69b3a2 !important;
 }
 
@@ -192,7 +198,10 @@ img::-moz-selection {
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
-#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+#mainNav .navbar-brand.active,
+#mainNav .navbar-brand:active,
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
   color: #251667;
 }
 
@@ -213,7 +222,8 @@ img::-moz-selection {
 
 }
 
-#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #69b3a2;
   background-color: white;
   border-bottom: 3px solid #69b3a2;
@@ -230,15 +240,18 @@ img::-moz-selection {
     transition: padding-top 0.3s, padding-bottom 0.3s;
     background-color: transparent;
   }
+
   #mainNav .navbar-brand {
     font-size: 1.75em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
+
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
   }
+
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
@@ -256,64 +269,65 @@ img::-moz-selection {
   color: black;
   position: relative;
   overflow: hidden;
+  padding: 10px;
 }
 
 .parallax {
-    /* The image used (faded with convert overview_RGG.png  -fill white -colorize 50%  overview_RGG_faded.png*/
-    /* background-image: url("../img/overview_RGG_faded.png"); */
+  /* The image used (faded with convert overview_RGG.png  -fill white -colorize 50%  overview_RGG_faded.png*/
+  /* background-image: url("../img/overview_RGG_faded.png"); */
 
-    /* Set a specific height */
-    min-height: 100px;
+  /* Set a specific height */
+  min-height: 100px;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallaxwebsite {
-    /* The image used (faded with convert overview_RGG.png  -fill white -colorize 50%  overview_RGG_faded.png*/
-    /* background-image: url("../img/parallax/poster_zoom_fadded.png"); */
+  /* The image used (faded with convert overview_RGG.png  -fill white -colorize 50%  overview_RGG_faded.png*/
+  /* background-image: url("../img/parallax/poster_zoom_fadded.png"); */
 
-    /* Set a specific height */
-    min-height: 500px;
+  /* Set a specific height */
+  min-height: 500px;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallaxcontact {
-    /* The image used (faded with convert overview_RGG.png  -fill white -colorize 50%  overview_RGG_faded.png*/
-    /* background-image: url("../img/parallax/surf_fading.png"); */
+  /* The image used (faded with convert overview_RGG.png  -fill white -colorize 50%  overview_RGG_faded.png*/
+  /* background-image: url("../img/parallax/surf_fading.png"); */
 
-    /* Set a specific height */
-    min-height: 500px;
+  /* Set a specific height */
+  min-height: 500px;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
 
 .parallaxposter {
-    /* The image used (faded with convert overview_RGG.png  -fill white -colorize 50%  overview_RGG_faded.png*/
-    /* background-image: url("../img/parallax/poster_zoom_fadded.png"); */
+  /* The image used (faded with convert overview_RGG.png  -fill white -colorize 50%  overview_RGG_faded.png*/
+  /* background-image: url("../img/parallax/poster_zoom_fadded.png"); */
 
-    /* Set a specific height */
-    min-height: 500px;
+  /* Set a specific height */
+  min-height: 500px;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -345,6 +359,7 @@ header.masthead .intro-text .intro-heading {
     padding-top: 100px;
     padding-bottom: 200px;
   }
+
   header.masthead .intro-text .intro-lead-in {
     font-size: 16px;
     font-style: italic;
@@ -355,6 +370,7 @@ header.masthead .intro-text .intro-heading {
     margin-left: 20%;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
+
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
@@ -456,8 +472,10 @@ header.masthead .intro-text .intro-heading {
 
 
 .column {
-    display: none; /* Hide all elements by default */
+  display: none;
+  /* Hide all elements by default */
 }
+
 .show {
   display: block;
 }
@@ -472,53 +490,53 @@ header.masthead .intro-text .intro-heading {
 /* -------------------- MENU ------------------ */
 
 
-    .dropdown-submenu {
-        position: relative;
-    }
+.dropdown-submenu {
+  position: relative;
+}
 
-    .dropdown-submenu>.dropdown-menu {
-        top: 0;
-        left: 100%;
-        margin-top: -6px;
-        margin-left: -1px;
-        -webkit-border-radius: 0 6px 6px 6px;
-        -moz-border-radius: 0 6px 6px;
-        border-radius: 0 6px 6px 6px;
-    }
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
 
-    .dropdown-submenu:hover>.dropdown-menu {
-        display: block;
-    }
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
 
-    .dropdown-submenu>a:after {
-        display: block;
-        content: " ";
-        float: right;
-        width: 0;
-        height: 0;
-        border-color: transparent;
-        border-style: solid;
-        border-width: 5px 0 5px 5px;
-        border-left-color: #ccc;
-        margin-top: 5px;
-        margin-right: -10px;
-    }
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
 
-    .dropdown-submenu:hover>a:after {
-        border-left-color: #fff;
-    }
+.dropdown-submenu:hover>a:after {
+  border-left-color: #fff;
+}
 
-    .dropdown-submenu.pull-left {
-        float: none;
-    }
+.dropdown-submenu.pull-left {
+  float: none;
+}
 
-    .dropdown-submenu.pull-left>.dropdown-menu {
-        left: -100%;
-        margin-left: 10px;
-        -webkit-border-radius: 6px 0 6px 6px;
-        -moz-border-radius: 6px 0 6px 6px;
-        border-radius: 6px 0 6px 6px;
-    }
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
 
 
 
@@ -529,7 +547,7 @@ header.masthead .intro-text .intro-heading {
 /* -------------------- TOOLTIP ------------------ */
 
 
-.data-tooltip{
+.data-tooltip {
   color: black;
   background-color: white;
   background: white;
@@ -539,9 +557,9 @@ header.masthead .intro-text .intro-heading {
 }
 
 .tooltip.show {
-    opacity: 1;
-    background-color: white;
-    border: green;
+  opacity: 1;
+  background-color: white;
+  border: green;
 }
 
 
@@ -562,11 +580,13 @@ header.masthead .intro-text .intro-heading {
   max-height: 95vh;
   overflow-y: auto;
 }
+
 @media (min-width: 1000px) {
   .portfolio-modal .modal-dialog {
     max-width: 70vw;
   }
 }
+
 @media (min-width: 1800px) {
   .portfolio-modal .modal-dialog {
     max-width: 30vw;
@@ -673,6 +693,15 @@ section#contact .section-heading {
   color: #fff;
 }
 
+section#contact .contact-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+section#contact .contact-wrap {
+  width: 60%;
+}
+
 section#contact .form-group {
   margin-bottom: 25px;
 }
@@ -722,7 +751,7 @@ section#contact :-ms-input-placeholder {
 }
 
 footer {
-  padding: 25px 0;
+  padding: 10px 0;
   text-align: center;
 }
 
@@ -760,8 +789,13 @@ ul.social-buttons li a {
   background-color: #212529;
 }
 
-ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
+  /* background-color: #fed136; */
+  background-color: #69b3a2;
+  border-color: #69b3a2;
+  color: #fff;
 }
 
 
@@ -781,66 +815,69 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     .mySlides {display: none}
     img {vertical-align: middle;}*/
 
-    /* Slideshow container */
-    .slideshow-container {
-      max-width: 1000px;
-      position: relative;
-      margin: auto;
-    }
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 
-    /* Next & previous buttons */
-    .prev, .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      padding: 16px;
-      margin-top: -22px;
-      color: white;
-      font-weight: bold;
-      font-size: 18px;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-    }
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
 
-    /* Position the "next button" to the right */
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
 
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover, .next:hover {
-      background-color: rgba(0,0,0,0.8);
-    }
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 
-    /* Caption text */
-    .text {
-      color: #f2f2f2;
-      font-size: 15px;
-      padding: 8px 12px;
-      position: absolute;
-      bottom: 8px;
-      width: 100%;
-      text-align: center;
-    }
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
 
 
-    /* The dots/bullets/indicators */
-    .dot {
-      cursor: pointer;
-      height: 15px;
-      width: 15px;
-      margin: 0 2px;
-      background-color: #69b3a2;
-      border-radius: 50%;
-      display: inline-block;
-      transition: background-color 0.6s ease;
-    }
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #69b3a2;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
 
-    .active, .dot:hover {
-      background-color: white;
-    }
+.active,
+.dot:hover {
+  background-color: white;
+}
 
 /* ------------------------------------------------------------------------------------------------------------------- */
 
@@ -864,10 +901,11 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 /* Create three equal columns that floats next to each other */
 .column {
-    display: none; /* Hide all elements by default */
+  display: none;
+  /* Hide all elements by default */
 }
 
-    /* The "show" class is added to the filtered elements */
+/* The "show" class is added to the filtered elements */
 .show {
   display: block;
 }
@@ -895,19 +933,19 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 /* ------------------------------------------------------------------------------------------------------------------- */
 
 .tooltip {
-  max-width:510px;
-  padding:3px 8px;
-  color:white;
-  text-align:center;
-  background-color:white;
-  -webkit-border-radius:5px;
-  -moz-border-radius:5px;
-  border-radius:5px
+  max-width: 510px;
+  padding: 3px 8px;
+  color: white;
+  text-align: center;
+  background-color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px
 }
 
 .tooltip-inner {
-  max-width:510px;
-  color:black;
+  max-width: 510px;
+  color: black;
   background-color: white;
   border-style: solid;
   border-color: black;
@@ -925,23 +963,25 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 /* ------------------------------------------------------------------------------------------------------------------- */
 
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-next,
+.carousel-control-prev {
   color: black;
 }
 
 .carousel-control-prev-icon {
-    /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); */
+  /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); */
 }
 
 .carousel-control-next-icon {
-    /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); */
+  /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); */
 }
 
 .carousel-control-prev {
-    left: -121px;
+  left: -121px;
 }
+
 .carousel-control-next {
-    right: -121px;
+  right: -121px;
 }
 
 .mytextrelated {
@@ -987,10 +1027,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 /* ------------------------------------------------------------------------------------------------------------------- */
 
 
-    .cardtitle {
-      color: orange;
-      text-align: left;
-    }
+.cardtitle {
+  color: orange;
+  text-align: left;
+}
 
 
 
@@ -1001,9 +1041,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 /* PARTICLE.JS CSS
 /* ------------------------------------------------------------------------------------------------------------------- */
 
-#particles-js{
+#particles-js {
   width: 100%;
-  height: 800px;
+  height: 550px;
   background-color: white;
   background-image: url('');
   background-size: cover;
@@ -1020,24 +1060,24 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 /* BLOG SECTION
 /* ------------------------------------------------------------------------------------------------------------------- */
 
-.blogtitle{
+.blogtitle {
   font-size: 23px;
   color: black;
   font-weight: 400
 }
 
-.blogfeature{
+.blogfeature {
   font-size: 12px;
   color: grey;
 }
 
-.blogtext{
+.blogtext {
   font-size: 18px;
   color: black;
   font-weight: 100
 }
 
-.blogreadmore{
+.blogreadmore {
   font-size: 18px;
   color: #69b3a2;
   font-weight: 300
@@ -1057,36 +1097,38 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   position: absolute;
   top: 40%;
   right: 50%;
-  transform: translate(50%,-50%);
+  transform: translate(50%, -50%);
   max-width: 600px;
-  padding: 2em 3em;
+  padding: 0 3em;
 }
+
 .arrowlanding {
   color: black;
   position: absolute;
   top: 98%;
   right: 50%;
-  transform: translate(50%,-50%);
+  transform: translate(50%, -50%);
   max-width: 600px;
   padding: 2em 3em;
 }
 
-.home_nav{
+.home_nav {
   /* width: 30%; */
   text-align: start;
 }
 
-.nav_list{
+.nav_list {
   display: inline-flex;
   justify-content: flex-end;
   align-items: center;
   width: 80%;
 }
 
-.nav_list li{
+.nav_list li {
   margin: 5px 15px;
 }
-.fontItalic{
+
+.fontItalic {
   font-style: italic;
 }
 

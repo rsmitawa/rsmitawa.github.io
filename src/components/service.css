@@ -1,0 +1,33 @@
+section#services .services-logo {
+    margin: 15px;
+    color: #69b3a2;
+    font-size: 45px;
+    padding: 30px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 5px;
+    border: solid;
+}
+
+section#services .services-logo:hover {
+    color: white;
+    background-color: #69b3a2;
+}
+
+section#services .service-head {
+    padding-bottom: 3%;
+}
+
+section#services .service-head p {
+    display: inline;
+    font-size: 35px;
+}
+
+section#services .section-subheading {
+    max-width: 500px;
+    line-height: 27px;
+}
+
+section#services .plus {
+    font-size: 23px
+}
