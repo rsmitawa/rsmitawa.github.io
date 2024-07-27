@@ -1,4 +1,5 @@
 import React from "react";
+import { githubURL, linkedinURL, mailId } from "../common/Constant";
 
 export const Contact = () => {
   return (
@@ -12,31 +13,26 @@ export const Contact = () => {
             >
               Contact
             </h2>
-            <p>
-              Feel free to contact me for any question. For open source
-              projects, please open an issue or pull request on &nbsp;
-              <a href="https://github.com/rsmitawa">Github</a>. If you want to
-              follow my work, reach me on &nbsp;
-              <a href="https://twitter.com/R_Graph_Gallery">Twitter</a>.
-              Otherwise, send me an email at &nbsp;
-              <a href="mailto:rsmitawa@gmail.com">rsmitawa@gmail.com</a>.
+            <p> I am always open to new opportunities and collaborations. Feel free to reach out to me via email at  <a href={`mailto:${mailId}`}>{mailId}</a> or connect with me on  <a href={linkedinURL}>LinkedIn</a> .
             </p>
+            <p>I look forward to the opportunity to discuss how my skills and experiences can contribute to your team's success.</p>
+
             <div style={{ textAlign: "center" }}>
               <a
                 class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-                href="https://github.com/rsmitawa"
+                href={githubURL}
               >
                 Github
               </a>
               <a
                 class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-                href="https://twitter.com/R_Graph_Gallery"
+                href={linkedinURL}
               >
-                Twitter
+                LinkedIn
               </a>
               <a
                 class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-                href="mailto:rsmitawa@gmail.com"
+                href={`mailto:${mailId}`}
               >
                 Mail
               </a>

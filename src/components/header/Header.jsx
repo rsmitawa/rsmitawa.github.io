@@ -3,12 +3,7 @@ import { Link } from "react-router-dom";
 export const Header = () => {
   return (
     <header className="header-container">
-      {/* <div className="profile_img">
-        <img
-          src="https://png.pngtree.com/png-vector/20190307/ourlarge/pngtree-vector-edit-profile-icon-png-image_780604.jpg"
-          alt="Ramesh Profile"
-        />
-      </div> */}
+
       <nav class="navbar navbar-expand-lg fixed-top navbar-shrink" id="mainNav">
         <div class="container">
           <div className="home_nav">
@@ -58,14 +53,7 @@ export const Header = () => {
                 </Link>
               </li>
               <li class="nav-item">
-                <a
-                  href="https://docs.google.com/document/d/1qN-s5pEF1h-nEb_Zw0foWrNWl5MUKT2njVpVh2pG95U/edit?usp=sharing"
-                  target="_blank"
-                  rel="noreferrar noreferrer"
-                  class="nav-link js-scroll-trigger"
-                >
-                  Resume
-                </a>
+                <a href='Resume/RameshMitawa_Resume.pdf' target="_blank" class="nav-link js-scroll-trigger">Resume</a>
               </li>
             </ul>
           </div>

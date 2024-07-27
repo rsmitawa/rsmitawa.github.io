@@ -8,7 +8,6 @@ export const Services = () => {
         <div class="row">
           <div class="col-lg-12 text-center service-head">
             <p>Services</p>
-            {/* <hr style="width: 100px; height: 1px; border:none;color:#333;background-color:#333;" /> */}
             <center>
               <h3 class="section-subheading text-muted">
                 Let me help make better use of your data. My expertise can be

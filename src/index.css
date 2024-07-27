@@ -1041,18 +1041,6 @@ ul.social-buttons li a:hover {
 /* PARTICLE.JS CSS
 /* ------------------------------------------------------------------------------------------------------------------- */
 
-#particles-js {
-  width: 100%;
-  height: 550px;
-  background-color: white;
-  background-image: url('');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
-
-
-
 
 
 
@@ -1090,27 +1078,6 @@ ul.social-buttons li a:hover {
 /* ------------------------------------------------------------------------------------------------------------------- */
 /* LANDING PAGE
 /* ------------------------------------------------------------------------------------------------------------------- */
-
-
-.textlanding {
-  color: black;
-  position: absolute;
-  top: 40%;
-  right: 50%;
-  transform: translate(50%, -50%);
-  max-width: 600px;
-  padding: 0 3em;
-}
-
-.arrowlanding {
-  color: black;
-  position: absolute;
-  top: 98%;
-  right: 50%;
-  transform: translate(50%, -50%);
-  max-width: 600px;
-  padding: 2em 3em;
-}
 
 .home_nav {
   /* width: 30%; */

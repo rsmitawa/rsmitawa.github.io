@@ -1,5 +1,5 @@
 import React from "react";
-import "./intro.css";
+import "./style.css";
 
 export const Intro = () => {
   return (
@@ -14,21 +14,13 @@ export const Intro = () => {
             />
           </div>
           <div class="col-lg-8 text-start">
-            <p>Hi, I'm Ramesh.</p>
+            <p>Hello! I'm Ramesh Mitawa</p>
             <p>
-              My job consists in helping companies and researchers to analyse
-              their datasets. I am skilled for most data-science steps: data
-              pre-processing, application of statistical methods, data
-              visualization and results communication.
+              a Data Scientist passionate about leveraging data to drive meaningful insights and solutions. With a Master of Science in Data Science from <a href="https://www.trentu.ca/" target="_blank" rel="noreferrer" > Trent University </a>and a Bachelor of Engineering in Computer Science from <a href="https://www.chitkara.edu.in/" target="_blank" rel="noreferrer" > Chitkara University</a>, I bring a unique blend of academic rigor and practical experience to my work.
             </p>
-            <p>
-              After having worked for renowned research institutes like the{" "}
-              <a href="http://qbi.uq.edu.au">University of Queensland</a> and
-              private companies like <a href="#">Terres Inovia</a>, I'm now
-              working for
-              <a href="https://www.datadoghq.com/">Datadog</a> as a software
-              engineer.
+            <p>Throughout my career, I have led end-to-end machine learning projects, including developing an NLP-based email maliciousness classifier at Beauceron Security and enhancing predictive analytics for surgery recommendations at Evive Software Analytics. My expertise spans a wide range of technical skills, from programming languages like Python and R to machine learning frameworks such as TensorFlow and PyTorch.
             </p>
+
             <a
               class="btn btn-secondary btn-l text-uppercase mx-2"
               href="https://github.com/holtzy/Publication"
@@ -55,7 +47,7 @@ export const Intro = () => {
             </a>
             <a
               class="btn btn-secondary btn-l text-uppercase mx-2"
-              href="https://github.com/holtzy"
+              href='https://github.com/rsmitawa'
               target={"_blank"}
               rel="noreferrar noreferrer"
             >

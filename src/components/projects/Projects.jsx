@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Portfolio = () => {
+export const Projects = () => {
   return (
     <section class="bg-light" id="portfolio">
       <div class="container">
@@ -183,7 +183,7 @@ export const Portfolio = () => {
 
           <div
             class="col-md-3 col-sm-6 portfolio-item show column mining"
-            // style="background-color: white;"
+          // style="background-color: white;"
           >
             <a
               class="portfolio-link"

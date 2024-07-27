@@ -1,14 +1,14 @@
-import { Routes, Route, Link } from "react-router-dom";
-import { About } from "./components/About";
-import { Home } from "./components/Home";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import { Header } from "./components/Header";
-import { Intro } from "./components/Intro";
+import Testimonials from "./components/testimonial";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Intro from "./components/intro";
+import Projects from "./components/projects";
+import Home from "./components/home";
 import { Services } from "./components/Services";
-import { Portfolio } from "./components/Portfolio";
-import { Contact } from "./components/Contact";
-import { Testimonials } from "./components/Testimonials";
-import { Footer } from "./components/Footer";
+import Contact from "./components/contact";
+import Resume from "./components/Resume";
 
 const App = () => {
   return (
@@ -19,9 +19,10 @@ const App = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/intro" element={<Intro />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
       <Footer />
     </div>
