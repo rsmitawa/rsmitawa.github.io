@@ -11,12 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: "20"
-      - run: npm install
-      - run: npm run build
 
-  deploy:
-    -run: gh-pages -d build
+      - name: npm install, build, and test
+        run: |
+          npm install
+          npm run build --if-present
+          gh-pages -d build
