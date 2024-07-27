@@ -1,5 +1,5 @@
 ---
-title: "Ramesh Mitawa - Data Scientist"
+"Ramesh Mitawa - Data Scientist"
 ---
 
 ## Introduction

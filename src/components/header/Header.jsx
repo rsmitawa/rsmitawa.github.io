@@ -36,8 +36,8 @@ export const Header = () => {
                 </Link>
               </li>
               <li class="nav-item">
-                <Link to="/portfolio" class="nav-link js-scroll-trigger">
-                  Portfolio
+                <Link to="/projects" class="nav-link js-scroll-trigger">
+                  Projects
                 </Link>
               </li>
               <li class="nav-item">
