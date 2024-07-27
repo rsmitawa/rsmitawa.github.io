@@ -2,6 +2,7 @@ import React from "react";
 import { githubURL, linkedinURL, mailId } from "../common/Constant";
 
 export const Contact = () => {
+
   return (
     <section id="contact" class="bg-light">
       <div class="container">
