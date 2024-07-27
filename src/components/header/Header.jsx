@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 export const Header = () => {
   return (
     <header className="header-container">
-
       <nav class="navbar navbar-expand-lg fixed-top navbar-shrink" id="mainNav">
         <div class="container">
           <div className="home_nav">
@@ -11,7 +10,6 @@ export const Header = () => {
               HOME
             </Link>
           </div>
-
           <button
             class="navbar-toggler navbar-toggler-right"
             type="button"

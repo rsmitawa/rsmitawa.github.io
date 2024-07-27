@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 
 export const Intro = () => {
+
   return (
     <section id="description" class="bg-light">
       <div class="container">

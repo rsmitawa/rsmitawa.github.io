@@ -4,6 +4,7 @@ import "./home.css";
 import Social from "../common/Social";
 
 export const Home = () => {
+
   return (
     <div class="masthead home-container">
       <div class="textlanding">
