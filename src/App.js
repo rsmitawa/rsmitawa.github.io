@@ -11,7 +11,6 @@ import Contact from "./components/contact";
 import Resume from "./components/Resume";
 
 const App = () => {
-
   return (
     <div className="App">
       <Header />
