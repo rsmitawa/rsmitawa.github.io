@@ -59,9 +59,21 @@ export const Intro = () => {
 
         <div class="row hide-if-small-screen work_history">
           <div class="col-lg-12 text-center">
-            <svg width="1000" height="100">
+            <svg width="1120" height="100">
+              <circle
+                cx="15"
+                cy="50"
+                r="10"
+                stroke="#f8f9fa"
+                stroke-width="6"
+                fill="#69b3a2"
+              ></circle>
+              <text text-anchor="middle" x="18" y="80" fill="black">
+                2014
+              </text>
+
               <line
-                x1="0"
+                x1="25"
                 y1="50"
                 x2="1000"
                 y2="50"
@@ -69,69 +81,88 @@ export const Intro = () => {
               ></line>
 
               <circle
-                cx="150"
+                cx="250"
                 cy="50"
                 r="10"
                 stroke="#f8f9fa"
                 stroke-width="6"
                 fill="#69b3a2"
               ></circle>
-              <text text-anchor="middle" x="150" y="80" fill="black">
-                2012
+              <text text-anchor="middle" x="250" y="80" fill="black">
+                2018
               </text>
               <text
                 font-size="13"
                 text-anchor="middle"
-                x="70"
+                x="120"
                 y="30"
                 fill="black"
               >
-                Master Degree
+                Bachelor of Engineering
               </text>
               <text
                 class="fontItalic"
                 font-size="13"
                 text-anchor="middle"
-                x="70"
+                x="120"
                 y="80"
                 fill="#808080"
               >
-                Mtp Supagro
+                Chitkara University
               </text>
 
               <circle
-                cx="450"
+                cx="300"
                 cy="50"
                 r="10"
                 stroke="#f8f9fa"
                 stroke-width="6"
                 fill="#69b3a2"
               ></circle>
-              <text text-anchor="middle" x="450" y="80" fill="black">
-                2016
+              <text text-anchor="middle" x="300" y="80" fill="black">
+                2017
+              </text>
+
+              <line
+                x1="300"
+                y1="50"
+                x2="1300"
+                y2="50"
+                style={{ stroke: "black", strokeWidth: "1.5" }}
+              ></line>
+
+              <circle
+                cx="600"
+                cy="50"
+                r="10"
+                stroke="#f8f9fa"
+                stroke-width="6"
+                fill="#69b3a2"
+              ></circle>
+              <text text-anchor="middle" x="600" y="80" fill="black">
+                2019
               </text>
               <text
                 font-size="13"
                 text-anchor="middle"
-                x="300"
+                x="440"
                 y="30"
                 fill="black"
               >
-                Data Analyst
+                QA Developer, Data Science
               </text>
               <text
                 class="fontItalic"
                 font-size="13"
                 text-anchor="middle"
-                x="300"
+                x="450"
                 y="80"
                 fill="#808080"
               >
-                French Institute of Research
+                Evive Software Analytics Pvt. Ltd.
               </text>
-
               <circle
-                cx="650"
+                cx="640"
                 cy="50"
                 r="10"
                 stroke="#f8f9fa"
@@ -139,27 +170,16 @@ export const Intro = () => {
                 fill="#69b3a2"
               ></circle>
               <text text-anchor="middle" x="650" y="80" fill="black">
-                2017
+                2021
               </text>
-              <text
-                font-size="13"
-                text-anchor="middle"
-                x="550"
-                y="30"
-                fill="black"
-              >
-                Data analyst
-              </text>
-              <text
-                class="fontItalic"
-                font-size="13"
-                text-anchor="middle"
-                x="550"
-                y="80"
-                fill="#808080"
-              >
-                Terres Inovia
-              </text>
+
+              <line
+                x1="660"
+                y1="50"
+                x2="1300"
+                y2="50"
+                style={{ stroke: "black", strokeWidth: "1.5" }}
+              ></line>
 
               <circle
                 cx="850"
@@ -170,7 +190,7 @@ export const Intro = () => {
                 fill="#69b3a2"
               ></circle>
               <text text-anchor="middle" x="850" y="80" fill="black">
-                2019
+                2022
               </text>
               <text
                 font-size="13"
@@ -179,7 +199,7 @@ export const Intro = () => {
                 y="30"
                 fill="black"
               >
-                Data visualization
+                Master of Science
               </text>
               <text
                 class="fontItalic"
@@ -189,27 +209,57 @@ export const Intro = () => {
                 y="80"
                 fill="#808080"
               >
-                Qld Brain Institute
+                Trent University
+              </text>
+              <circle
+                cx="900"
+                cy="50"
+                r="10"
+                stroke="#f8f9fa"
+                stroke-width="6"
+                fill="#69b3a2"
+              ></circle>
+              <text text-anchor="middle" x="900" y="80" fill="black">
+                2022
               </text>
 
+              <line
+                x1="900"
+                y1="50"
+                x2="1300"
+                y2="50"
+                style={{ stroke: "black", strokeWidth: "1.5" }}
+              ></line>
+
+              <circle
+                cx="1100"
+                cy="50"
+                r="10"
+                stroke="#f8f9fa"
+                stroke-width="6"
+                fill="#69b3a2"
+              ></circle>
+              <text text-anchor="middle" x="1100" y="80" fill="black">
+                2023
+              </text>
               <text
                 font-size="13"
                 text-anchor="middle"
-                x="930"
+                x="1000"
                 y="30"
                 fill="black"
               >
-                Data - Science - Viz
+                Data Scientist
               </text>
               <text
                 class="fontItalic"
                 font-size="13"
                 text-anchor="middle"
-                x="930"
+                x="1000"
                 y="80"
                 fill="#808080"
               >
-                Freelance
+                Beauceron Security
               </text>
             </svg>
           </div>
