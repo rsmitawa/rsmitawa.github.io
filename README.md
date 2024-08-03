@@ -6,17 +6,13 @@ Ramesh Mitawa - Data Scientist
 
 ### About Me
 
-Hello! I'm Ramesh Mitawa, a Data Scientist with a Master's degree in Data Science from Trent University. Currently, I am utilizing my expertise in the cybersecurity industry at Beauceron Security, where I contribute to the development and enhancement of advanced machine learning models.
+Hello! I'm Ramesh Mitawa, a Data Scientist with a Master's degree in Data Science from Trent University. Currently, I am utilizing my expertise in the cybersecurity industry at Beauceron Security, where I contribute to developing and enhancing advanced machine learning models.
 
-My journey in data science is marked by a strong foundation in statistical modeling, natural language processing, and predictive analytics. I have consistently driven business value by translating complex data into actionable insights, enabling both technical and non-technical stakeholders to make informed decisions. My role at Beauceron Security has been instrumental in advancing cybersecurity measures and contributing to significant growth in the customer base.
+A strong foundation in statistical modeling, natural language processing, and predictive analytics marks my journey in data science. I have consistently driven business value by translating complex data into actionable insights, enabling both technical and non-technical stakeholders to make informed decisions. My role at Beauceron Security has been instrumental in advancing cybersecurity measures and contributing to significant growth in the customer base.
 
-Before joining Beauceron, I gained invaluable industry experience at Evive Software Analytics, where I bridged QA and Data Science teams to deliver impactful outcomes in the healthcare sector. My work with Fortune 100 clients such as UnitedHealth Group, Cigna, and Anthem provided me with deep insights into the integration of data science and business processes.
+Before joining Beauceron, I gained invaluable industry experience at Evive Software Analytics, where I bridged QA and Data Science teams to deliver impactful outcomes in the healthcare sector. My work with Fortune 100 clients such as UnitedHealth Group, Cigna, and Anthem provided me with deep insights into integrating data science and business processes.
 
 My passion for coding and data science began early and has only intensified over time. With a strong technical skill set that includes Python, R, SQL, and cloud services like AWS and Azure, I am dedicated to leveraging my expertise to bridge the gap between technology and business effectively. As we witness the growing integration of businesses and information technology, I am committed to driving innovation and excellence in the field of data science.
-
----
-
-Does this revised version provide a better high-level view of your experience and expertise?
 
 ---
 
